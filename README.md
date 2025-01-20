@@ -23,18 +23,17 @@ The temperature sensor measures the ambient temperature and provides an output v
 
 # Microcontroller/Processing:
 
-The analog signal from the temperature sensor (if it's an analog sensor) is read by the microcontroller's analog-to-digital converter (ADC).
+The analog signal from the temperature sensor is read by the Arduino's analog-to-digital converter (ADC).
 The microcontroller processes this signal and converts it into a temperature value.
 
 # LED Response:
 
 Based on the processed temperature, the microcontroller can turn the LED on/off or adjust its brightness.
-If the LED is meant to turn on when a certain temperature threshold is reached (e.g., when the temperature exceeds a certain value), the microcontroller will switch the LED on.
-If the LED is to indicate varying temperatures, the microcontroller could use pulse-width modulation (PWM) to adjust the LED's brightness, making it brighter for higher temperatures and dimmer for lower temperatures.
+If the LED is meant to turn on when a certain temperature threshold is reached (e.g., when the temperature exceeds 30 degree Celcius), the microcontroller will switch the LED on.
 
 # LED and Resistor:
 
-The LED needs to be connected in series with a current-limiting resistor to prevent it from burning out. The value of the resistor is typically calculated based on the LED's forward voltage and the supply voltage.
+The LED is connected in series with a current-limiting resistor to prevent it from burning out. The value of the resistor is typically calculated based on the LED's forward voltage and the supply voltage.
 For example, with a 5V supply and a red LED (which has a typical forward voltage of around 2V), a 220-ohm resistor to limit the current flowing through the LED.
 Example Circuit (with an LM35 sensor and Arduino):
 LM35 Temperature Sensor:
@@ -45,3 +44,4 @@ Output to an analog input pin (e.g., A0)
 LED and Resistor:
 
 The anode (long leg) of the LED to a digital output pin (e.g., D13 on Arduino
+
