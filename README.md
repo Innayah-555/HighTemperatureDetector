@@ -21,7 +21,7 @@ A simple temperature sensor circuit can be designed to work with an LED to indic
 
 The temperature sensor measures the ambient temperature and provides an output voltage proportional to the temperature. For example, the LM35 temperature sensor outputs 10 mV per degree Celsius. As the temperature increases, the output voltage increases.
 
-# Microcontroller/Processing:
+# Arduino:
 
 The analog signal from the temperature sensor is read by the Arduino's analog-to-digital converter (ADC).
 The microcontroller processes this signal and converts it into a temperature value.
