@@ -8,11 +8,11 @@ Triggering Action: If the temperature exceeds the threshold, the detector activa
 A simple temperature sensor circuit can be designed to work with an LED to indicate temperature changes. The LED can act as a visual signal for temperature variations, either by changing its brightness or turning on/off based on specific temperature thresholds. Below is a basic explanation of how this can work:
 
 # Components:
-Temperature Sensor (e.g., LM35, TMP36, or thermistor): Measures the temperature.
-LED: Light-emitting diode to indicate temperature.
-Resistor: Used to limit the current to the LED.
-Power Supply: Provides voltage for the circuit (typically 5V or 3.3V, depending on the sensor).
-Optional Microcontroller (e.g., Arduino, ESP32): Used for processing the sensor data and controlling the LED.
+- Temperature Sensor (e.g., LM35, TMP36, or thermistor): Measures the temperature.
+- LED: Light-emitting diode to indicate temperature.
+- Resistor: Used to limit the current to the LED.
+- Power Supply: Provides voltage for the circuit (typically 5V or 3.3V, depending on the sensor).
+-  Microcontroller (e.g., Arduino, ESP32): Used for processing the sensor data and controlling the LED.
 
 
 # How It Works:
@@ -35,7 +35,7 @@ If the LED is to indicate varying temperatures, the microcontroller could use pu
 # LED and Resistor:
 
 The LED needs to be connected in series with a current-limiting resistor to prevent it from burning out. The value of the resistor is typically calculated based on the LED's forward voltage and the supply voltage.
-For example, with a 5V supply and a red LED (which has a typical forward voltage of around 2V), you might use a 220-ohm resistor to limit the current flowing through the LED.
+For example, with a 5V supply and a red LED (which has a typical forward voltage of around 2V), a 220-ohm resistor to limit the current flowing through the LED.
 Example Circuit (with an LM35 sensor and Arduino):
 LM35 Temperature Sensor:
 
