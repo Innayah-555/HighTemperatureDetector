@@ -1,3 +1,4 @@
+theme: jekyll-theme-minimal
 # HighTemperatureDetector
 # How High Temperature Detectors Work:
 Sensing: The temperature sensor continuously measures the temperature of the environment or system it's monitoring.
@@ -40,8 +41,8 @@ LM35 Temperature Sensor:
 
 Vcc to 5V
 GND to ground
-Output to an analog input pin (e.g., A0)
+Output to an analog input pin 
 LED and Resistor:
 
-The anode (long leg) of the LED to a digital output pin (e.g., D13 on Arduino
-theme: jekyll-theme-minimal 
+The anode (long leg) of the LED to a digital output pin 
+
