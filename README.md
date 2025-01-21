@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+
 # HighTemperatureDetector
 # How High Temperature Detectors Work:
 Sensing: The temperature sensor continuously measures the temperature of the environment or system it's monitoring.
@@ -45,4 +45,5 @@ Output to an analog input pin
 LED and Resistor:
 
 The anode (long leg) of the LED to a digital output pin 
+# jekyll-theme
 
