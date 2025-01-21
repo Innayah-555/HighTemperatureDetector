@@ -1,9 +1,13 @@
-
 # HighTemperatureDetector
-# How Temperature Sensors Work:
-Sensing: The temperature sensor continuously measures the temperature of the environment or system it's monitoring.
+
+# Temperature Sensor (DS18B20):
+
+The DS18B20 outputs a digital signal, and it does not require an analog-to-digital converter (ADC) to interface with a microcontroller or other digital systems.
+The temperature sensor continuously measures the temperature of the environment or system it's monitoring.
+It can measure temperatures from -55°C to +125°C (−67°F to +257°F), with an accuracy of ±0.5°C in the range of -10°C to +85°C.
 
 # Components:
+
 - Temperature Sensor: Measures the temperature.
 - LED: Light-emitting diode to indicate temperature.
 - Resistor: Used to limit the current to the LED.
@@ -34,6 +38,3 @@ The anode (long leg) of the LED to a digital output pin
 ![IMG_6938](https://github.com/user-attachments/assets/18f7538e-1a42-4714-a0db-c819668fe03d)
 
 ![IMG_6940](https://github.com/user-attachments/assets/17328589-a98c-40cc-b893-0f812111faf6)
-
-
-
