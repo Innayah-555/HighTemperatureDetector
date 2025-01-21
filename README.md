@@ -44,4 +44,4 @@ Output to an analog input pin (e.g., A0)
 LED and Resistor:
 
 The anode (long leg) of the LED to a digital output pin (e.g., D13 on Arduino
-
+theme: jekyll-theme-minimal 
