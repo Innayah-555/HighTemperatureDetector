@@ -1,12 +1,6 @@
 # HighTemperatureDetector
 
-# Temperature Sensor (DS18B20):
-
-The DS18B20 outputs a digital signal, and it does not require an analog-to-digital converter (ADC) to interface with a microcontroller or other digital systems.
-The temperature sensor continuously measures the temperature of the environment or system it's monitoring.
-It can measure temperatures from -55°C to +125°C (−67°F to +257°F), with an accuracy of ±0.5°C in the range of -10°C to +85°C.
-
-# Components:
+# Materials:
 
 - Temperature Sensor: Measures the temperature.
 - LED: Light-emitting diode to indicate temperature.
@@ -16,8 +10,11 @@ It can measure temperatures from -55°C to +125°C (−67°F to +257°F), with a
 
   # How It Works:
 
-# Temperature Measurement:
+# Temperature Sensor (DS18B20):
 
+The DS18B20 outputs a digital signal, and it does not require an analog-to-digital converter (ADC) to interface with a microcontroller or other digital systems.
+The temperature sensor continuously measures the temperature of the environment or system it's monitoring.
+It can measure temperatures from -55°C to +125°C (−67°F to +257°F), with an accuracy of ±0.5°C in the range of -10°C to +85°C.
 The temperature sensor measures the ambient temperature and provides an output voltage proportional to the temperature.
 
 # Arduino:
