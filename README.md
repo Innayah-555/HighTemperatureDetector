@@ -21,15 +21,11 @@ The temperature sensor measures the ambient temperature and provides an output v
 The analog signal from the temperature sensor is read by the Arduino's analog-to-digital converter (ADC).
 The microcontroller processes this signal and converts it into a temperature value.
 
-# LED Response:
+# LED:
 
 Based on the processed temperature, the microcontroller can turn the LED on/off or adjust its brightness.
 The LED is meant to turn on when a  when the temperature exceeds 30 degree Celcius, the microcontroller will switch the LED on.
-
-# LED and Resistor:
-
 The LED is connected in series with a current-limiting resistor to prevent it from burning out. The value of the resistor is typically calculated based on the LED's forward voltage and the supply voltage.
-
 Vcc to 5V
 GND to ground
 Output to an analog input pin 
